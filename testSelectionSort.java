@@ -12,9 +12,9 @@ import org.junit.Test;
 public class testSelectionSort {
 @Test
 public void test() {
-//testPositive();
-//testNegative();
-testDuplicates();
+testPositive();
+testNegative();
+//testDuplicates();
 //testMixed();
 }
     public testSelectionSort() {
@@ -60,8 +60,7 @@ testDuplicates();
         	assertEquals(arr[i], Sortedarr[i]);
         }
     }
-    public void testMixed(){
-        /** Test data contains with both positive, negative and zeros **/
+  /*  public void testMixed(){
     	int[] arr = new int[5];
         arr[0] = 0;
         arr[1] = -9;
@@ -76,13 +75,11 @@ testDuplicates();
         Sortedarr[2] = 0;
         Sortedarr[3] = 2;
         Sortedarr[4] = 7;
-        /** add tests to check for this unit test **/
         for(int i = 0; i < 5; i++) {
         	assertEquals(arr[i], Sortedarr[i]);
         }
     }
     public void testDuplicates(){
-        /** Test data contains duplicates **/
     	int[] arr = new int[5];
         arr[0] = 1;
         arr[1] = 1;
@@ -97,9 +94,9 @@ testDuplicates();
         Sortedarr[2] = 0;
         Sortedarr[3] = 1;
         Sortedarr[4] = 1;
-        /** add tests to check for this unit test **/
         for(int i = 0; i < 5; i++) {
         	assertEquals(arr[i], Sortedarr[i]);
         }
     }
-}	
+    */
+}
